@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ "${UID}" -ne 0 ]]
+if [[ "${UID}" -ne $(id -un) ]]
 then
  echo "You are not sysadmin. Your UID is ${UID}"
  exit 1
