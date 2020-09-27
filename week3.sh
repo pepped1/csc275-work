@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [[ "${UID}" -ne 0 ]]
+if [[ "$(id -un)" != "sysadmin" ]]
 then
- echo "You are not sysadmin. Your UID is ${UID}"
+ echo "Error: Only accessible to sysadmin."
  exit 1
 fi
 
