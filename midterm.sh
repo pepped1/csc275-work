@@ -97,3 +97,5 @@ do
   fi	
 shift
 done
+
+exit 0
