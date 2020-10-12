@@ -14,7 +14,6 @@ fi
 cd ${FOLDERNAME}
 
 shift
-#FILENUM=${#}
 
 while [ ${#} -gt 0 ]
 do
