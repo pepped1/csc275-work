@@ -1,9 +1,0 @@
-BACKUPNAME = backup
-URL = http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/smsspamcollection.zip
-
-${BACKUPNAME}.csv: ${BACKUPNAME}.txt
-	echo ${BACKUPNAME}
-	touch ${BACKUPNAME}.txt
-
-${BACKUPNAME}.txt:
-	echo "hiiii"
